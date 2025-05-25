@@ -3,7 +3,7 @@
     padding: 0%;
 }
 
-.nav, .navf {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,16 +15,28 @@
  word-spacing: 20px;
 }
 
-.nav a, .navf a
+.nav a
 { color: black;
   font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
+  text-decoration: underline;
   white-space: nowrap;
 } 
 
 .navf {
   margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  font-size: 13px;
 }
+
+.navf a
+{ color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+} 
 
 .parchi {
   font-weight: bolder;
@@ -56,6 +68,14 @@
     margin-left: 50px;
 }
 
+@media screen and (min-width: 1200px) {
+    .sottotitolo {
+        max-width: 700px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
 .linea {
   border-top: 1px solid rgb(161, 161, 161); 
   margin-top: 40px;
@@ -79,6 +99,8 @@
   margin-top: 60px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 16px;
 }
 
 .testo2 {
@@ -145,7 +167,7 @@
 .navparchi a {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 14px;
   text-align: center;
   width: 22%;
@@ -298,11 +320,26 @@
 .navparchi2 a {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 16px;
   width: 49%;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
